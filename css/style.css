@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background: rgb(20, 20, 20);
+    color: #c2c2c2;
+    font-family: 'Coda', cursive;
+}
+.controls {
+    font-size: 7em;
+}
+.modal {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    
+}
+.modal-content {
+    display: block;
+    background: rgba(46, 61, 73, 0.8);
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    padding: 1rem 1.5rem;
+    font-size: 1.3em;
+    width: 24rem;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+}
+#deaths {
+    display: inline-block;
+    margin-right: 10%;
+}
+.restart {
+    display: inline-block;
+}
