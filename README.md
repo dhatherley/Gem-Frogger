@@ -3,7 +3,7 @@ A Frogger game where you have to collect gems to complete.
 
 ## Instructions
 
-Run the index.html file in your browser or use the Live [Demo](https://dylanhatherley.github.io/Gem-Frogger/)
+Run the index.html file in your browser or use the Live [Demo](https://dylanhatherley.github.io/Gem-Frogger/index.html)
 
 ### Playing the Game
 
